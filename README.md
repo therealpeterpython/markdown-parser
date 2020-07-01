@@ -15,4 +15,4 @@ Optional description
 | row 2.1 | row 2.2 |...|
 ...
 ```
-Empty lines and "empty" rows (like ```| | | |```) will be ignored. The table object has a pretty print method to, you guessed it, pretty print the table. It has a filter function too. This function takes a criteria function and e only the rows for which the criteria function evaluates true.
+Empty lines and "empty" rows (like ```| | | |```) will be ignored. The table object has a pretty print method to, you guessed it, pretty print the table. It has a filter function too. This function takes a criteria function and returns only the rows for which the criteria function evaluates true.
